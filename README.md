@@ -25,6 +25,8 @@
 
 [English](./README_en.md) | 中文
 
+🎉💻[IPTV-Web](https://github.com/Guovin/iptv-web)：IPTV电视直播源管理平台，支持在线播放等功能，开发中...
+
 - [✅ 特点](#特点)
 - [🔗 最新结果](#最新结果)
 - [⚙️ 配置参数](#配置)
@@ -42,6 +44,7 @@
 
 📍订阅源来自：
 
+- [Guovin/iptv-database](https://github.com/Guovin/iptv-database)
 - [iptv-org/iptv](https://github.com/iptv-org/iptv)
 - [suxuang/myIPTV](https://github.com/suxuang/myIPTV)
 - [kimwang1978/collect-tv-txt](https://github.com/kimwang1978/collect-tv-txt)
@@ -72,14 +75,12 @@
 - 接口源：
 
 ```bash
-https://ghproxy.cc/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
+https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
 ```
 
 ```bash
-https://ghproxy.cc/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
+https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
 ```
-
-🙏 感谢由[ghproxy.cc](https://ghproxy.cc)提供的代理加速服务
 
 或
 
@@ -94,7 +95,7 @@ https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.txt
 - 数据源：
 
 ```bash
-https://ghproxy.cc/https://raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
+https://raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
 ```
 
 或
@@ -111,15 +112,15 @@ https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/source.json
 | open_empty_category    | 开启无结果频道分类，自动归类至底部                                                                                                                                                     | False             |
 | open_filter_resolution | 开启分辨率过滤，低于最小分辨率（min_resolution）的接口将会被过滤，GUI用户需要手动安装FFmpeg，程序会自动调用FFmpeg获取接口分辨率，推荐开启，虽然会增加测速阶段耗时，但能更有效地区分是否可播放的接口                                                      | True              |
 | open_filter_speed      | 开启速率过滤，低于最小速率（min_speed）的接口将会被过滤                                                                                                                                      | True              |
-| open_hotel             | 开启酒店源功能，关闭后所有酒店源工作模式都将关闭                                                                                                                                              | True              |
+| open_hotel             | 开启酒店源功能，关闭后所有酒店源工作模式都将关闭                                                                                                                                              | False             |
 | open_hotel_foodie      | 开启 Foodie 酒店源工作模式                                                                                                                                                     | True              |
-| open_hotel_fofa        | 开启 FOFA、ZoomEye 酒店源工作模式                                                                                                                                               | True              |
+| open_hotel_fofa        | 开启 FOFA、ZoomEye 酒店源工作模式                                                                                                                                               | False             |
 | open_keep_all          | 开启保留所有检索结果，会保留非模板频道名称的结果，推荐手动维护时开启                                                                                                                                    | False             |
 | open_local             | 开启本地源功能，将使用模板文件与本地源文件中的数据                                                                                                                                             | True              |
 | open_m3u_result        | 开启转换生成 m3u 文件类型结果链接，支持显示频道图标                                                                                                                                          | True              |
-| open_multicast         | 开启组播源功能，关闭后所有组播源工作模式都将关闭                                                                                                                                              | True              |
+| open_multicast         | 开启组播源功能，关闭后所有组播源工作模式都将关闭                                                                                                                                              | False             |
 | open_multicast_foodie  | 开启 Foodie 组播源工作模式                                                                                                                                                     | True              |
-| open_multicast_fofa    | 开启 FOFA 组播源工作模式                                                                                                                                                       | True              |
+| open_multicast_fofa    | 开启 FOFA 组播源工作模式                                                                                                                                                       | False             |
 | open_online_search     | 开启关键字搜索源功能                                                                                                                                                            | False             |
 | open_proxy             | 开启代理，自动获取免费可用代理，若更新无数据可开启此模式                                                                                                                                          | False             |
 | open_request           | 开启查询请求，数据来源于网络（仅针对酒店源与组播源）                                                                                                                                            | False             |
@@ -133,6 +134,7 @@ https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/source.json
 | open_use_cache         | 开启使用本地缓存数据，适用于查询请求失败场景（仅针对酒店源与组播源）                                                                                                                                    | True              |
 | open_history           | 开启使用历史更新结果（包含模板与结果文件的接口），合并至本次更新中                                                                                                                                     | True              |
 | app_port               | 页面服务端口，用于控制页面服务的端口号                                                                                                                                                   | 8000              |
+| cdn_url                | CDN代理加速地址，用于订阅源、频道图标等资源的加速访问                                                                                                                                          |                   |
 | final_file             | 生成结果文件路径                                                                                                                                                              | output/result.txt |
 | hotel_num              | 结果中偏好的酒店源接口数量                                                                                                                                                         | 10                |
 | hotel_page_num         | 酒店地区获取分页数量                                                                                                                                                            | 1                 |
@@ -279,8 +281,7 @@ docker run -d -p 8000:8000 guovern/iptv-api:lite
 - 定时执行时间
 
 ```bash
--e UPDATE_CRON1="0 22 * * *"
--e UPDATE_CRON2="0 10 * * *"
+-e UPDATE_CRON="0 22,10 * * *"
 ```
 
 #### 3. 更新结果
