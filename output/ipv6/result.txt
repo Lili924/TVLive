@@ -537,6 +537,7 @@ CCTV4K,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227382/index.m3u
 江苏影视,https://migu.188766.xyz/?migutoken=91756b74eb13850e4c87b15c25817e42&id=%E6%B1%9F%E8%8B%8F%E5%BD%B1%E8%A7%86%E9%A2%91%E9%81%93&type=yy
 江苏教育,http://z.b.bkpcp.top/m.php?id=jsjy
 江苏教育,http://goo.bkpcp.top/mg/jsjy
+江苏教育,https://migu.188766.xyz/?migutoken=bfd96895aa8e3e9aa47561510518c058&id=%E6%B1%9F%E8%8B%8F%E6%95%99%E8%82%B2&type=yy
 南京新闻综合,http://live.nbs.cn/channels/njtv/xwzh/m3u8:500k/live.m3u8
 南京新闻综合,http://z.b.bkpcp.top/m.php?id=njxwzh
 南京新闻综合,https://live.nbs.cn/channels/njtv/xwzh/m3u8:500k/live.m3u8
