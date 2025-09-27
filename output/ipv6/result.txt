@@ -594,6 +594,7 @@ CCTV4K,http://3501776.xyz:35455/gaoma/cctv4k.m3u8
 银川文体,http://play-a2.quklive.com/live/1667884025738071.m3u8
 
 青海频道,#genre#
+青海都市,http://[2409:8087:1e01:20::3]:80/PLTV/11/224/3221225749/index.m3u8
 安多卫视,http://php.jdshipin.com/TVOD/hljyd.php?id=3221225659
 安多卫视,https://liveout.xntv.tv/a65jur/96iln2.m3u8#@http://cm-wshls.homecdn.com/live/5a296.dlv#@http://dtrmlive.qhdtrm.cn/xnds/sd/live.m3u8#@http://cm-wshls.homecdn.com/live/5a296.m3u8#rtmp://liveout.xntv.tv/a65jur/96iln2
 安多卫视,rtmp://liveout.xntv.tv/a65jur/96iln2
