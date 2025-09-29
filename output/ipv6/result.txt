@@ -445,6 +445,7 @@ CCTV4K,http://3501776.xyz:35455/gaoma/cctv4k.m3u8
 
 贵州频道,#genre#
 天元围棋,http://wouu.net:9977/udp/239.93.42.55:5140
+天元围棋,https://cc06.tv12.xyz/47.m3u8
 
 海南频道,#genre#
 海南新闻,http://[2409:8087:5e00:24::1e]:6060/000000001000/4600001000000000111/1.m3u8
@@ -499,6 +500,7 @@ CCTV4K,http://3501776.xyz:35455/gaoma/cctv4k.m3u8
 金鹰纪实,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226572/1.m3u8?
 快乐垂钓,http://php.jdshipin.com/itv6.php?cid=bestzb&id=5000000011000031206
 快乐垂钓,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226670/index.m3u8
+快乐垂钓,https://cc06.tv12.xyz/56.m3u8
 
 黑龙江频道,#genre#
 黑龙江影视,http://php.jdshipin.com/TVOD/hljyd.php?id=3221226298
@@ -628,6 +630,7 @@ CCTV4K,http://3501776.xyz:35455/gaoma/cctv4k.m3u8
 陕西都市青春,http://gslbmgsplive.miguvideo.com/migu/kailu/sxdsqc/51/20250804/index.m3u8?msisdn=20250919080136b45ee433a7cf4d688994f00b794d176d&mdspid=&spid=600572&netType=0&sid=5910022190&pid=2028597139&timestamp=20250919080136&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956909358&ParentNodeID=-99&assertID=5910022190&client_ip=106.13.250.88&SecurityKey=20250919080136&promotionId=&mvid=5900006713&mcid=500020&playurlVersion=WX-A1-8.9.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=9db1317be8c80566b10f130aebe87c29&ddCalcu=992decb1716830e1b7ebae083c18f00516b6
 农林卫视,http://tvbox6.com/tv/bfgd.php?id=122
 农林卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226544/1.m3u8
+农林卫视,https://cc06.tv12.xyz/105.m3u8
 
 四川频道,#genre#
 四川科教,http://tv.scjyhd.com:4022/udp/239.11.0.194:5140
