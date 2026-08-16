@@ -844,6 +844,7 @@ TVBS,http://aktv.top/AKTV/live/aktv/tvbs/AKTV.m3u8
 明珠台,http://r.jdshipin.com/ZQ4kN
 明珠台,http://cdn9.163189.xyz/smt1.1.php?id=pearl_twn
 明珠台,http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
+明珠台,https://cdn.qd.je/163189/mzt
 东森新闻,http://aktv.top/AKTV/live/aktv2/null/AKTV.m3u8
 东森新闻,https://tv.iill.top/litv/4gtv-4gtv152
 东森新闻,https://smart.pendy.dpdns.org/Smart.php?id=ettvnews
